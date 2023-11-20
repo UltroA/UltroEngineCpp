@@ -63,7 +63,7 @@ void movePlayer()
  int dy = M.cos[Player.a]*10.0;
 
  if(K.w ==1 && K.m==0) { Player.x+=dx; Player.y+=dy; }
- if(K.s ==1 && K.m==0){ Player.x-=dx; Player.y+=dy; }
+ if(K.s ==1 && K.m==0){ Player.x-=dx; Player.y-=dy; }
 
  if(K.sr==1){ Player.x+=dy; Player.y-=dx; }
  if(K.sl==1){ Player.x-=dy; Player.y+=dx; }
