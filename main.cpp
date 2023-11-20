@@ -93,10 +93,29 @@ void draw3D()
  float cos_f_c = M.cos[Player.a];
  float sin_f_c = M.sin[Player.a];
 
- int x_len = 40 - l;
- int y_le = 10 - l;
+ int x1 = 40 - Player.x;
+ int y1 = 10 - Player.y;
 
+ int x2 = 40 - Player.x;
+ int y2 = 290 - Player.y;
 
+ wx[0] = x1*cos_f_c-y1*sin_f_c;
+ wx[1] = x2*cos_f_c-y2*sin_f_c;
+
+ wy[0] = y1*cos_f_c+x1*sin_f_c;
+ wy[1] = y2*cos_f_c+x2*sin_f_c;
+
+ wz[0] = 0 - Player.z;
+ wz[1] = 0 - Player.z;
+
+ wx[0] = wx[0]*200/wy[0] + SW2;
+ wy[0] = wz[0]*200/wy[0] + SH2;
+
+ wx[1] = wx[1]*200/wy[1] + SW2;
+ wy[1] = wz[1]*200/wy[1] + SH2;
+
+ if(wx[0]>0 && wx[0]<SW && wy[0]>0 && wy[0] < SH) { pixel(wx[0],wy[0],wz[0]); }
+ if(wx[0]>0 && wx[0]<SW && wy[0]>0 && wy[0] < SH) { pixel(wx[1],wy[1],wz[1]); }
 }
 
 void display()
