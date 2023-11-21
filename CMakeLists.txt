@@ -11,6 +11,7 @@ message(STATUS "GLUT: ${GLUT_INCLUDE_DIR}")
 
 include_directories({GLUT_INCLUDE_DIR} {OPENGL_INCLUDE_DIR})
 
-add_executable(opengl main.cpp)
+add_executable(opengl
+        main_shders.cpp)
 
 target_link_libraries(opengl GLUT::GLUT OpenGL::GL)

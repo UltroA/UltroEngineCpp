@@ -1,16 +1,5 @@
 "/Users/ultro/Library/Application Support/JetBrains/Toolbox/apps/CLion-Nova/ch-0/233.11868/CLion 2023.3 EAP.app/Contents/bin/cmake/mac/aarch64/bin/cmake" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=/Users/ultro/Library/Application Support/JetBrains/Toolbox/apps/CLion-Nova/ch-0/233.11868/CLion 2023.3 EAP.app/Contents/bin/ninja/mac/aarch64/ninja" -G Ninja -S /Users/ultro/CLionProjects/opengl -B /Users/ultro/CLionProjects/opengl/cmake-build-debug
--- The C compiler identification is AppleClang 15.0.0.15000040
--- The CXX compiler identification is AppleClang 15.0.0.15000040
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ - skipped
--- Detecting CXX compile features
--- Detecting CXX compile features - done
--- Configuring done (1.9s)
+-- GLUT: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/GLUT.framework/Headers
+-- Configuring done (0.1s)
 -- Generating done (0.0s)
 -- Build files have been written to: /Users/ultro/CLionProjects/opengl/cmake-build-debug

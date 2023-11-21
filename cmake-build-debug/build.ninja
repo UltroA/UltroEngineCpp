@@ -49,8 +49,8 @@ cmake_ninja_workdir = /Users/ultro/CLionProjects/opengl/cmake-build-debug/
 
 build cmake_object_order_depends_target_opengl: phony || CMakeFiles/opengl.dir
 
-build CMakeFiles/opengl.dir/main.cpp.o: CXX_COMPILER__opengl_unscanned_Debug /Users/ultro/CLionProjects/opengl/main.cpp || cmake_object_order_depends_target_opengl
-  DEP_FILE = CMakeFiles/opengl.dir/main.cpp.o.d
+build CMakeFiles/opengl.dir/main_shders.cpp.o: CXX_COMPILER__opengl_unscanned_Debug /Users/ultro/CLionProjects/opengl/main_shders.cpp || cmake_object_order_depends_target_opengl
+  DEP_FILE = CMakeFiles/opengl.dir/main_shders.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
   INCLUDES = -I/Users/ultro/CLionProjects/opengl/{GLUT_INCLUDE_DIR} -I/Users/ultro/CLionProjects/opengl/{OPENGL_INCLUDE_DIR} -isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/GLUT.framework/Headers -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks
   OBJECT_DIR = CMakeFiles/opengl.dir
@@ -64,7 +64,7 @@ build CMakeFiles/opengl.dir/main.cpp.o: CXX_COMPILER__opengl_unscanned_Debug /Us
 #############################################
 # Link the executable opengl
 
-build opengl: CXX_EXECUTABLE_LINKER__opengl_Debug CMakeFiles/opengl.dir/main.cpp.o | /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/GLUT.framework/GLUT.tbd /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa.tbd
+build opengl: CXX_EXECUTABLE_LINKER__opengl_Debug CMakeFiles/opengl.dir/main_shders.cpp.o | /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/GLUT.framework/GLUT.tbd /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa.tbd
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
   LINK_LIBRARIES = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/GLUT.framework/GLUT.tbd  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa.tbd
   OBJECT_DIR = CMakeFiles/opengl.dir
